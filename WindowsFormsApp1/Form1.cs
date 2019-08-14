@@ -276,7 +276,7 @@ namespace WindowsFormsApp1
 
             g.FillRectangle(new SolidBrush(Color.White), new Rectangle(0, 0, pictureBox1.Width, pictureBox1.Height)); // i used this code to make the background color white 
 
-            g.DrawString(DateTime.Now.ToString("dd-MM-yy"), new Font("Ariel", 90, FontStyle.Bold), new SolidBrush(Color.Black), new PointF(5, 10));
+            g.DrawString(DateTime.Now.ToString("dd-MMM-yy"), new Font("Ariel", 75, FontStyle.Bold), new SolidBrush(Color.Black), new PointF(5, 10));
 
             g.DrawString(textBoxMain.Text, new Font("Ariel", 75, FontStyle.Bold), new SolidBrush(Color.Black), new PointF(5, 160));
 
