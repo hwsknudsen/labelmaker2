@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
             labelScaleWeight.Text = Getweight().ToString();
             updatebarcode("", labelScaleWeight.Text);
         }
